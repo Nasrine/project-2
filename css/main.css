@@ -28,8 +28,8 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 2rem;
-	padding: 2em o.75em 0.5em 2em;;
-	margin: 0;
+	padding: 2em o.75em 0.5em 2em;
+	margin: auto;
 	text-align: center;
 }
 header{
@@ -37,3 +37,21 @@ header{
 	padding:0.5em 2em 2em 2em;
 	text-align:center;
 }
+
+. article1 {
+    background-image: url("banner.jpg");
+    
+}
+
+.nav-menu{
+	width:33.33%
+	float:left;
+	background-color:#d05c2e;
+	margin:0 
+	border:1px solid#A93F35;
+	margin:auto;
+	}
+
+img{
+		width:100%
+	}
