@@ -62,12 +62,10 @@ div.nav-menu:hover{
 img {
 		width:50%
 	}
-.img banner.jpg{
+.img [banner.jpg]{
 	width:100%;
 }
-img[width="100"]{
-   float:right;
-}
+
 .article1 {
     background-image: url("banner.jpg");
     display: block;
