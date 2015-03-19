@@ -35,16 +35,11 @@ h1 {
 	width: 50%;
 }
 header{
-	background-color: red;
+	background-color: #e7001d;
 	padding: 0.5em 0em 0em 0.5em;
 	margin: 0;
 	text-align:center;
 }
-
-. article1 {
-    background-image: url("banner.jpg");
-}
-
 .menu{
 	background-color:black;
 	color: white;
@@ -65,5 +60,38 @@ div.nav-menu:hover{
 	background-color: black;
 }
 img {
-		width:100%
+		width:50%
 	}
+.img banner.jpg{
+	width:100%;
+}
+img[width="100"]{
+   float:right;
+}
+.article1 {
+    background-image: url("banner.jpg");
+    display: block;
+
+}
+.article2 {
+	background-color: #e4c22a;
+	text-align: center; 
+	float:right;
+}
+.article3{
+	color: white;
+	background-color: black;
+	text-align: center;
+	float:left;
+}
+.article4{
+	color: white;
+	background-color: #bc0017;
+	text-align: center;
+	loat:right; 
+}
+.article5{
+	background-color: #e4c22a; 
+	text-align: center; 
+	float:left;
+}
