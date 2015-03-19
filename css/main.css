@@ -40,11 +40,22 @@ header{
 	margin: 0;
 	text-align:center;
 }
+h2{
+
+}
 .menu{
 	background-color:black;
 	color: white;
 	margin:auto;
 	}
+
+
+.dragon{
+	background-color: #e4c22a;
+}
+
+.dragon img
+
 
 nav ul li {
 	color: white;
@@ -60,36 +71,76 @@ div.nav-menu:hover{
 	background-color: black;
 }
 img {
-		width:50%
+	width:50%
 	}
-.img [banner.jpg]{
-	width:100%;
+
+
+.banner img{
+	width: 100%;
 }
 
+}
+.i{
+	font-size: 4rem;
+}
 .article1 {
     background-image: url("banner.jpg");
     display: block;
-
 }
+
 .article2 {
 	background-color: #e4c22a;
 	text-align: center; 
 	float:right;
 }
+img/dragon: float right
+
 .article3{
 	color: white;
 	background-color: black;
 	text-align: center;
-	float:left;
+}
+img/goat: float left
+
+.article3 div i{
+	color: white;
+font-size: 4rem;
+	float:right;
 }
 .article4{
 	color: white;
 	background-color: #bc0017;
 	text-align: center;
-	loat:right; 
+	float:right; 
 }
+.article4 div li{
+	color: white
+	background-color: #bc0017;
+	float:left;
+}
+img/rooster float: right;
+
+
 .article5{
 	background-color: #e4c22a; 
 	text-align: center; 
 	float:left;
 }
+.article5 div li{
+	color: black
+	background-color: #e4c22a;
+	float:right;
+}
+img/ox float: left;
+
+footer{
+	color:white
+	background-color:black:;
+	text-align: center;
+	padding:1em 1em 0.5em 1em;
+	clear:both;
+}
+
+
+
+
