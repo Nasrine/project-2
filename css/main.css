@@ -25,9 +25,10 @@ h1 {
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
-	font-size: 4rem;
-	top: 0.5em; 
-	padding: 1em, 0em, 0em, 1em;
+
+	font-size: 24px;
+	top: 2em; 
+	padding:0;
 	margin: auto;
 	text-align: center;
 	position: absolute;
@@ -50,12 +51,11 @@ header{
 	color: white;
 	position: absolute;
 	text-align: center;
+	top: 0.5;
+	bottom: 0.5;
 }
-.zodia{
-	top:1em;
-}
+
 h2{
-	
 	text-align: center;
 	top: 2rem;
 }
@@ -72,25 +72,20 @@ nav ul li {
 	margin:0.5em;
 	padding: 0.5em 0em 0em 0.5em;
 	border:1px solid:black;
+
 } 
 nav a{
+}
 	color: #fff;
-}
-figure{
 
-}
 figcaption{
 	text-align: center;
-
-}
-.dragon{
-	background-color: #e4c22a;
-	float: right;
 }
 
 div.nav-menu:hover{
 	color: white;
 	background-color: black;
+
 }
 img {
 	width:50%
@@ -102,9 +97,12 @@ img {
 	position: relative;
 }
 #banner {
-	width: 100%;
+	width: 300%;
 	position: absolute;
 	left:0;	top:0;
+	padding: padding:1em 1em 0.5em 1em;
+
+
 }
 
 #shen{
@@ -112,17 +110,28 @@ img {
 	font-size: 24px;
 	font-weight: bold;
 	width: 100%
+
 }
-.dragon {
+/*.dragon {
     background-image: url("banner.jpg");
     display: block;
+}*/
+.dragon{
+	color: black;
+	background-color: #e4c22a;
+	text-align: center;
+	float:right; 
 }
-
+.dragon div li{
+	color: black;
+	background-color: #e4c22a;
+	float:right;
+}
 .goat {
 	color: white;
 	background-color: black;
 	text-align: center; 
-	float:right;
+	float:left;
 	position: relative;
 }
 .goat div li{
@@ -133,7 +142,7 @@ img {
 .rooster{
 	color: white;
 	background-color: #bc0017;
-	float: left;
+	float:right;
 	text-align: center;
 }
 
@@ -149,12 +158,12 @@ img {
 	color: black;
 	background-color: #e4c22a;
 	text-align: center;
-	float:right; 
+	float:left; 
 }
 .ox div li{
 	color: black;
 	background-color: #e4c22a;
-	float:left;
+	float:right;
 }
 footer{
 	color:white;
