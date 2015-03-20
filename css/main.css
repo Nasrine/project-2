@@ -16,7 +16,7 @@ html{
 	text-size-adjust:100 ;
 
 	box-sizing: border-box;
-	font-family: 'Sans-serif';
+	font-family:'Sans-serif';
 	font: normal 100%;
 }
 
@@ -26,10 +26,11 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 4rem;
-	padding: auto;
+	padding: 1em, 0em, 0em, 1em, em;
 	margin: auto;
 	text-align: center;
 	position: absolute;
+	display: block;
 
 }
 .img header{
@@ -43,12 +44,16 @@ header{
 	position: relative;
 	width: 100%;
 }
-h2{
-	
+
+h2{margin-right: 0;
 	text-align: center;
 	top: 2rem;
+	right: 2rem;
 }
-
+div.nav-menu:hover{
+	color: white;
+	background-color: black;
+}
 nav{
 	color: white;
 	background-color:#222;
@@ -70,77 +75,94 @@ figure{
 }
 figcaption{
 	text-align: center;
-
-}
-.dragon{
-	background-color: #e4c22a;
-	float: right;
 }
 
-div.nav-menu:hover{
-	color: white;
-	background-color: black;
-}
 img {
 	width:50%
 	}
-.banner {
-	width: 100%;
-}
 
 .bannerwrap{
+	height: 400px;
+	width: 400px;
 	position: relative;
 	text-align: center;
-	padding: 0;
+}
+.banner {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top:0;
+}
+.text{
+	position: absolute;
+	color: white;
+	font-size:24px;
+	font-weight:bold;
+	left: 150px;
+	top: 150px;
+}
 
+.dragon{
+	background-color: #e4c22a;
+	color: black;
+	text-align: center;
+	float: right;
+	
+	background-color: #e4c22a;
+	float:right;
 }
 
 .dragon {
-    background-image: url("banner.jpg");
+    background-image: 
     display: block;
 }
 
-.goat {
+
+.goat{
+	color: white;
 	background-color: black;
-	text-align: center; 
-	float:right;
-	position: relative;
+	text-align: center;
+	float:left;
+	position: relative; 
 }
-img/dragon: float right
+.goat div li{
+	color: black;
+	background-color: black;
+}
 
 .rooster{
 	color: white;
 	background-color: #bc0017;
 	text-align: center;
+	float: right;
+	position: relative; 
+	} 
+.rooster div li{
+	color: white;
+	background-color:#bc0017 ;
+	float:left;
 }
-img/goat: float left
 
-.rooster div i{
-	color: white;
-font-size: 4rem;
-	float:right;
-	background-color: #e4c22a;
-}
+
 .ox{
-	color: white;
+	color: black;
 	background-color: #e4c22a;
 	text-align: center;
-	float:right; 
+	float:left; 
 }
 .ox div li{
-	color: white;
+	color: black;
 	background-color: #e4c22a;
-	float:left;
-
+	float: right;
 }
-img/rooster float: right;
 
 
-img/ox float: left;
-
+figcaption{
+	text-align: center;
+}
 footer{
 	color:white
-	background-color:black:;
+	background-color: black:;
 	text-align: center;
 	padding:1em 1em 0.5em 1em;
 	clear:both;
