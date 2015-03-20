@@ -61,9 +61,16 @@ nav ul li {
 	padding: 0.5em 0em 0em 0.5em;
 	border:1px solid:black;
 } 
+figure{
 
+}
+figcaption{
+	text-align: center;
+
+}
 .dragon{
 	background-color: #e4c22a;
+	float: right;
 }
 
 div.nav-menu:hover{
