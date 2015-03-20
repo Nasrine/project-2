@@ -39,32 +39,32 @@ header{
 	padding: 0.5em 0em 0em 0.5em;
 	margin: 0;
 	text-align:center;
+	position: relative;
 }
 h2{
-
+	position: absolute;
+	text-align: center;
+	top: 2rem; bottom: 2rem;left:2rem; right:2rem;
 }
-.menu{
-	background-color:black;
+
+nav{
 	color: white;
-	margin:auto;
+	background-color:#222;
+	margin:0;
 	}
-
-
-.dragon{
-	background-color: #e4c22a;
-}
-
-.dragon img
-
 
 nav ul li {
 	color: white;
-	background-color: black;
+	background-color: #222;
 	display:inline-block;
 	margin:0.5em;
 	padding: 0.5em 0em 0em 0.5em;
 	border:1px solid:black;
 } 
+
+.dragon{
+	background-color: #e4c22a;
+}
 
 div.nav-menu:hover{
 	color: white;
@@ -73,64 +73,58 @@ div.nav-menu:hover{
 img {
 	width:50%
 	}
-
-
-.banner img{
+.banner {
 	width: 100%;
 }
 
+.bannerwrap{
+	position: relative;
+	text-align: center;
+	padding: 0;
+
 }
-.i{
-	font-size: 4rem;
-}
-.article1 {
+
+.dragon {
     background-image: url("banner.jpg");
     display: block;
 }
 
-.article2 {
-	background-color: #e4c22a;
+.goat {
+	background-color: black;
 	text-align: center; 
 	float:right;
+	position: relative;
 }
 img/dragon: float right
 
-.article3{
+.rooster{
 	color: white;
-	background-color: black;
+	background-color: #bc0017;
 	text-align: center;
 }
 img/goat: float left
 
-.article3 div i{
+.rooster div i{
 	color: white;
 font-size: 4rem;
 	float:right;
+	background-color: #e4c22a;
 }
-.article4{
+.ox{
 	color: white;
-	background-color: #bc0017;
+	background-color: #e4c22a;
 	text-align: center;
 	float:right; 
 }
-.article4 div li{
-	color: white
-	background-color: #bc0017;
+.ox div li{
+	color: white;
+	background-color: #e4c22a;
 	float:left;
+
 }
 img/rooster float: right;
 
 
-.article5{
-	background-color: #e4c22a; 
-	text-align: center; 
-	float:left;
-}
-.article5 div li{
-	color: black
-	background-color: #e4c22a;
-	float:right;
-}
 img/ox float: left;
 
 footer{
